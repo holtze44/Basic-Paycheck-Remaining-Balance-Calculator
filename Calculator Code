@@ -1,0 +1,7 @@
+var paycheckAmount = Number(prompt("How much was your paycheck?"));
+var rent = Number(prompt("How much is rent?"));
+var internet = Number(prompt("Internet?"));
+var other = Number(prompt("Other expense amounts"));
+var billTotal = rent + internet + other;
+var sum = paycheckAmount - billTotal;
+alert(sum);
